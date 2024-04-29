@@ -1,26 +1,18 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lain's Gallery</title>
+    <title>{{page.title}}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
     <main>
-        <nav>
-    
-    <a href="/" class="nav-item nav-selected">Home</a>
-    
-    <a href="/art.html" class="nav-item">Art</a>
-    
-    <a href="/about.html" class="nav-item">About</a>
-    
-</nav>
+        {% include nav.html %}
         <div id="content">
-            <h1>*Hi, Welcome to my library*</h1>
-
-
+            {{ content }}
         </div>
     </main>
 </body>
