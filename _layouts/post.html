@@ -12,7 +12,11 @@
     <main>
         {% include nav.html %}
         <div id="content">
-            {{ content }}
+            <div id="post">
+                <a class="post-back" href="/art">Back to art</a>
+                <img class="post-art" src="{{page.art}}"/>
+                {{ content }}
+            </div>
         </div>
     </main>
 </body>
