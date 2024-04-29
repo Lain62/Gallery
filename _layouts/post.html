@@ -6,15 +6,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{page.title}}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="{{'/assets/css/styles.css' | relative_url}}">
 </head>
 <body>
     <main>
         {% include nav.html %}
         <div id="content">
             <div id="post">
-                <a class="post-back" href="/art">Back to art</a>
-                <img class="post-art" src="{{page.art}}"/>
+                <a class="post-back" href="{{'/art' | relative_url}}">Back to art</a>
+                <img class="post-art" src="{{page.art | relative_url }}"/>
                 {{ content }}
             </div>
         </div>
