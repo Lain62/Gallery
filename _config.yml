@@ -1,2 +1,2 @@
-url: https://lain62.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /Gallery/      # place folder name if the site is served in a subfolder
+url: "https://lain62.github.io/Gallery"  # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: "/Gallery/"      # place folder name if the site is served in a subfolder
