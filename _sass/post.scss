@@ -1,14 +1,20 @@
 #post {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 
     .post-art{
+        margin-top: 20px;
         max-width: 600px;
         max-height: 600px;
     }
 
     .post-back{
         text-decoration: none;
+        color: #FDFFFC;
+        background-color: #2EC4B6;
+        padding: 5px;
+        border-radius: 4px;
     }
 }

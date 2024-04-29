@@ -1,10 +1,23 @@
 main {
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 1200px;
     
     #content {
+        margin-top: 20px;
+        border-style: solid;
+        border-color: #E71D36;
+        border-radius: 20px;
+        min-width: 100%;
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
+        background-color: #041a30;
+
+        h1 {
+            text-align: center;
+        }
     }
 }
