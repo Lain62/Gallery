@@ -6,7 +6,7 @@ layout: main
     {% for post in site.posts %}
         <li class="art">
             <div class="art-div">
-                <a href="{{ post.url | relative_url }}"><img class="art-image" src="{{post.thumbnail}}" alt=""></a>
+                <a href="{{ post.url | relative_url }}"><img class="art-image" src="{{post.thumbnail | relative_url}}" alt=""></a>
                 <p class="art-date">{{post.date| date: "%Y-%m-%d"}}</p>
             </div>
         </li>
