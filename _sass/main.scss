@@ -12,16 +12,35 @@ main {
         // border-color: #E71D36;
         // border-radius: 20px;
         min-width: 100%;
-        min-height: 100vh;
+        min-height: 100%;
         display: flex;
         flex-direction: column;
         background-color: #041a30;
+        
 
         h1 {
             padding: 20px;
             margin: 0;
             text-align: center;
             background-color: #E71D36;
+        }
+
+        p {
+            text-align: center;
+            margin: 10px 20px;
+        }
+
+        ul {
+            text-align: center;
+            list-style-type: none;
+            padding: 0;
+
+            li {
+                margin: 10px 0;
+                a {
+                    color: #FDFFFC;
+                }
+            }
         }
     }
 }

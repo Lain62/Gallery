@@ -14,7 +14,7 @@ main {
 main #content {
   margin-top: 20px;
   min-width: 100%;
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   background-color: #041a30;
@@ -24,6 +24,21 @@ main #content h1 {
   margin: 0;
   text-align: center;
   background-color: #E71D36;
+}
+main #content p {
+  text-align: center;
+  margin: 10px 20px;
+}
+main #content ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+main #content ul li {
+  margin: 10px 0;
+}
+main #content ul li a {
+  color: #FDFFFC;
 }
 
 nav {
