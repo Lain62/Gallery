@@ -12,11 +12,13 @@
     <main>
         {% include nav.html %}
         <div id="content">
+            <h1></h1>
             <div id="post">
-                <a class="post-back" href="{{'/art' | relative_url}}">Back to art</a>
+                <a class="post-back" onclick="window.history.back()">Back to art</a>
                 <img class="post-art" src="{{page.art | relative_url }}"/>
                 {{ content }}
             </div>
+            <h1></h1>
         </div>
     </main>
 </body>

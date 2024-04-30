@@ -4,12 +4,13 @@ main {
     flex-direction: column;
     align-items: center;
     max-width: 1200px;
+    font-family: Helvetica;
     
     #content {
         margin-top: 20px;
-        border-style: solid;
-        border-color: #E71D36;
-        border-radius: 20px;
+        // border-style: solid;
+        // border-color: #E71D36;
+        // border-radius: 20px;
         min-width: 100%;
         min-height: 100vh;
         display: flex;

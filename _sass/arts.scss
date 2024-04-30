@@ -20,8 +20,8 @@
             border-width: 1px;
 
             .art-image {
-                width: 10rem;
-                height: 10rem;
+                width: 10em;
+                height: 10em;
                 object-fit: cover;
                 object-position: top;
             }
@@ -32,6 +32,41 @@
             //     color: #011627;
             //     background-color: #2EC4B6;
             // }
+        }
+
+    }
+}
+.pagination-div {
+    padding: 20px;
+    background-color: #E71D36;
+    display: flex;
+    margin-top: auto;
+    justify-content: space-between;    
+    align-items: center;
+
+    .pagination-nav {
+        min-width: 107px;
+    }
+
+    .pagination-arrow-anchor {
+        text-decoration: none;
+        color: #FDFFFC;
+    }
+
+    .pagination-arrow {
+        margin: 0;
+        font-weight: 900;
+        font-size: xx-large;
+    }
+    .pagination-current{
+        display: flex;
+        align-items: center;
+        margin: 0;
+        
+        .pagination-current-page {
+            margin: 0;
+            font-weight: 900;
+            font-size: xx-large;
         }
     }
 }

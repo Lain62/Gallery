@@ -1,6 +1,6 @@
 - name: Home
   link: /
 - name: Art
-  link: /art.html
+  link: /art/index
 - name: About
-  link: /about.html
+  link: /about
