@@ -1,5 +1,5 @@
 <nav>
     {% for nav in site.data.nav %}
-    <a href="{{nav.link | relative_url}}" class="nav-item{% if page.url == nav.link%} nav-selected{% endif %}">{{ nav.name }}</a>
+    <a href="{{nav.link | relative_url}}" class="nav-item">{{ nav.name }}</a>
     {% endfor %}
 </nav>

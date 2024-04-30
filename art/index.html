@@ -1,0 +1,31 @@
+---
+layout: main
+title: Arts
+---
+<h1>*My Arts*</h1>
+<ul class="arts">
+    {% for post in paginator.posts %}
+        <li class="art">
+            <div class="art-div">
+                <a href="{{ post.url | relative_url }}"><img class="art-image" src="{{post.thumbnail | relative_url}}" alt=""></a>
+            </div>
+        </li>
+    {% endfor %}
+
+    
+</ul>
+<div class="pagination-div">
+    <div class="pagination-prev pagination-nav">
+    {% if paginator.previous_page != nil %}
+    <a class="pagination-arrow-anchor" href="{{paginator.previous_page_path | relative_url}}"><p class="pagination-arrow pagination-arrow-prev">{{ "< Prev" }}</p></a>
+    {% endif %}
+    </div>
+    <div class="pagination-current">
+        <p class="pagination-current-page">{{ paginator.page }}</p>
+    </div>
+    <div class="pagination-next pagination-nav">
+    {% if paginator.next_page != nil %}
+            <a class="pagination-arrow-anchor" href="{{paginator.next_page_path | relative_url}}"><p class="pagination-arrow pagination-arrow-next">{{ "Next >" }}</p></a>
+    {% endif %}
+    </div>
+</div>

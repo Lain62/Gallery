@@ -5,18 +5,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{page.title}}</title>
+    <title>{{page.title}} - Ivu's gallery</title>
     <link rel="stylesheet" href="{{'/assets/css/styles.css' | relative_url}}">
 </head>
 <body>
     <main>
         {% include nav.html %}
         <div id="content">
+            <h1></h1>
             <div id="post">
-                <a class="post-back" href="{{'/art' | relative_url}}">Back to art</a>
+                <a class="post-back" onclick="window.history.back()">Back to art</a>
                 <img class="post-art" src="{{page.art | relative_url }}"/>
                 {{ content }}
             </div>
+            <div class="pagination-div"></div>
         </div>
     </main>
 </body>
