@@ -1,5 +1,5 @@
 plugins:
   - jekyll-paginate
 
-paginate: 20
+paginate: 21
 paginate_path: "/art/page:num/"
