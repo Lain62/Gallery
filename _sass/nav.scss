@@ -18,7 +18,7 @@ nav {
         padding: 10px;
     }
     
-    .nav-item.nav-selected {
+    .nav-item:hover {
         background-color: #FF9F1C;
         border-radius: 4px;
     }

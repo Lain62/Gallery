@@ -2,7 +2,7 @@
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 2px;
     justify-content: center;
 
     .art {
@@ -17,19 +17,21 @@
             width: fit-content;
             height: fit-content;
             border-color: #2EC4B6;
-            border-radius: 6px;
+            border-width: 1px;
 
             .art-image {
-                max-width: 250px;
-                max-height: 250px;
+                width: 10rem;
+                height: 10rem;
+                object-fit: cover;
+                object-position: top;
             }
-            .art-date {
-                text-align: center;
-                width: 100%;
-                margin: 0;
-                color: #011627;
-                background-color: #2EC4B6;
-            }
+            // .art-date {
+            //     text-align: center;
+            //     width: 100%;
+            //     margin: 0;
+            //     color: #011627;
+            //     background-color: #2EC4B6;
+            // }
         }
     }
 }
