@@ -71,8 +71,8 @@ nav .nav-item:hover {
 }
 #post .post-art {
   margin-top: 20px;
-  max-width: 800px;
-  max-height: 800px;
+  max-width: 90vw;
+  max-height: 90vh;
   margin-bottom: 20px;
 }
 #post .post-back {
