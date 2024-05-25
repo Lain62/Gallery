@@ -1,4 +1,8 @@
 # Gallery
+To build image
+```bash
+docker build -t gallery:0.2 .
+```
 
 To start server
 ```bash
